@@ -1,11 +1,13 @@
 import MovieCard from "./Moviecard";
 import MovieList from "./MovieList";
 import Student from "./Student";
+import Navbar from "./Navbar";
 
 function App() {
   return (
     <>
-    <h1>MovieFlix</h1>
+    {/* <h1>MovieFlix</h1> */}
+    <Navbar/>
     {/* <MovieCard/> */}
     <MovieList/>
 
