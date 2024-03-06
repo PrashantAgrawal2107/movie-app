@@ -1,6 +1,5 @@
-import React from "react";
 
-export default class MovieCard extends React.Component{
+export default function MovieCard(props){
 
     // // addStars(){
     // //     console.log(this.state);
@@ -56,11 +55,10 @@ export default class MovieCard extends React.Component{
     //     })
     // }
 
-    render(){
-        // const {title,plot,price,rating,stars,fav,cart} = this.props;
-        const {movies} = this.props;
+        // const {title,plot,price,rating,stars,fav,cart} = props;
+        const {movies} = props;
         const {title,plot,poster,price,rating,stars,fav,cart} = movies;
-        const {addStars , minusStars, handleFavorite, handleCart} = this.props;
+        const {addStars , minusStars, handleFavorite, handleCart} = props;
 
         return (
             <>
@@ -91,5 +89,5 @@ export default class MovieCard extends React.Component{
             </div>
             </>
         )
-    }
+    
 }

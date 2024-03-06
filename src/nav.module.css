@@ -1,0 +1,38 @@
+.nav{
+  width : 100%;
+  background: #4267b2;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title{
+font-size : 30px;
+color: #fff;
+font-weight : 600;
+font-family : Montserrat , sans-serif;
+margin-left : 20;
+padding : 15px;
+&:hover{color : #0f0}
+}
+
+.cartIconContainer{
+position : relative;
+cursor : pointer
+}
+
+.cartIcon{
+height : 40px;
+margin-right : 20px;
+margin-top : 12px
+}
+
+.cartCount{
+background-color : orange;
+border-radius : 50%;
+padding : 4px 8px;
+position: absolute;
+right: 10px;
+top: 0px;
+font-size : 12px;
+}

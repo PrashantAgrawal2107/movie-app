@@ -6,6 +6,7 @@
 .pnp.js
 /src/Student.js
 /src/Navbar_inlinecss.js
+/src/Navbar_styledComponent.js
 # testing
 /coverage
 
